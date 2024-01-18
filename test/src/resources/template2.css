@@ -1,0 +1,66 @@
+/* template2.css */
+
+.template2-parent {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f7f7f7!important /* Set your desired background color */
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h1 {
+  margin: 0;
+}
+
+.top div {
+  text-align: right;
+}
+
+.divider {
+  height: 2px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.objective h3,
+.education h3,
+.experience h3,
+.projects h3,
+.skills h3 {
+  font-size: 24px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.projects h5 {
+  font-size: 20px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.e {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.e p {
+  margin: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 8px;
+}

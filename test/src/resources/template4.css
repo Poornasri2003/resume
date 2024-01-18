@@ -1,0 +1,39 @@
+/* template1.css */
+/* template1.css */
+
+.template4-parent {
+    color: rgba(0, 0, 0, 0.699) !important;
+    padding: 50px;
+    background:#5846463b;
+  }
+  
+  .template4-parent h1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .template4-parent p {
+    padding-top: 0;
+    margin-bottom: 0 !important;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 200 !important;
+  }
+  
+  .objective h3,
+  .education h3,
+  .experience h3,
+  .projects h3,
+  .skills h3 {
+    font-weight: bold !important;
+    color: #3498db; /* Set your desired heading color */
+  }
+  
+  .projects h5 {
+    font-weight: bold !important;
+  }
+  
+  .e b {
+    font-weight: bold !important;
+  }
+  
