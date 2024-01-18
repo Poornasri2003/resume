@@ -15,17 +15,17 @@
   },
   "scripts": {
 
-"client-install": "npm install --prefix client",
+"client-install": "npm install --prefix test",
 
 "server": "nodemon server.js",
 
-"client": "npa start --prefix client",
+"client": "npa start --prefix test",
 
-"dev": "concurrently \"npm run server\" \"npm run client\"",
+"dev": "concurrently \"npm run server\" \"npm run test\"",
 
 "start": "node server.js",
 
-"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build-prefix client"
+"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build-prefix test"
   },
   "author": "",
   "license": "ISC",
