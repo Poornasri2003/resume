@@ -1,0 +1,18 @@
+# render.yaml
+
+services:
+  - name: web
+    buildCommand: |
+      cd test  
+      npm install
+      npm run build
+      cd ..  # Move back to the root directory
+    startCommand: node server.js  # Assuming this starts your Node.js server
+
+    # Service root directory - the root directory of your project
+    # Adjust this path based on your project structure
+    serviceRoot: /opt/render
+
+env:
+  - key: NODE_ENV
+    value: production  # Set your Node.js environment to production
