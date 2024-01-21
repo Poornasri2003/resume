@@ -14,18 +14,11 @@
     "test": "test"
   },
   "scripts": {
-
-"client-install": "npm install --prefix test",
-
-"server": "nodemon server.js",
-
-"client": "npa start --prefix test",
-
-"dev": "concurrently \"npm run server\" \"npm run test\"",
-
-"start": "node server.js",
-
-"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build-prefix test"
+    "start": "react-scripts start",
+    "server": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
